@@ -1,7 +1,7 @@
 import telebot
 import covid19_data as cd
 
-bot = telebot.TeleBot("916209163:AAHa7SIT04ELKub2Zd9gpf9YABt95szghZs")
+bot = telebot.TeleBot("TOKEN")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
